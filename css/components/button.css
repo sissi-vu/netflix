@@ -1,0 +1,35 @@
+.btn-identifier
+{ 
+	background-color:  #e30f19;
+	padding: 5px 17px 5px 17px;
+	color: white;
+	font-family: 'Helvetica'
+	font-size: 16px;
+	border-radius: 4px;
+	height: 34px; width: 112px;
+    text-decoration: none;
+ }
+ 
+
+.btn-essayer
+{ 
+	background-color:  #e30f19;
+	color: white;
+	font-family: 'Helvetica';
+	font-size: 24px;
+	font-weight: 400;
+	border: 0px;
+	padding: 0px 25px 0px 25px;
+	height: 55px; width: 195px;
+ }
+
+
+
+
+
+	
+	
+	
+	
+	
+ 

@@ -1,0 +1,82 @@
+
+@import url("components/banner.css");
+@import url("components/button.css");
+@import url("components/container.css");
+@import url("components/box.css");
+
+
+
+h1
+{ 
+   font-family:  Netflix Sans;
+   font-size: 50px;
+   padding: 50px 5%;
+   color: white;
+}
+
+h2
+ {  
+   font-family:  Helvetica Neue, Helvetica, Arial, sans-serif; 
+   font-weight: lighter;
+   font-size: 20px;
+   margin-bottom: 30px;
+  }
+
+ h3
+  { 
+    font-family:  Helvetica Neue, Helvetica, Arial, sans-serif; 
+    font-weight: lighter;
+    font-size: 20px;
+    margin-top: 30px;
+
+   }
+
+a
+{
+	color: grey;
+	text-decoration: none;
+}
+
+
+/*RESPONSIVE DESIGN */
+@media (max-width: 950px)
+{  
+	#h1 {width: 640px; height: 110px; font-size: 40px;}
+	#h2 {font-size: 24px;}
+	#h3 {font-size: 18px;}
+	.accordion-section .panel-default > .panel-heading {width: 670px; height: 58px;}
+	.accordion-section .panel-default .panel-title a {font-size: 20px; margin: 6px 0px 0px 15px;}
+	.accordion-section .panel-default .panel-body {width: 670px; font-size: 18px;}
+	input {width: 500px; height: 60px;}
+	.input2 {width: 500px; height: 60px;}
+	.btn-essayer {width: 125px; height: 44px; font-size: 13px;}
+}
+
+@media (max-width: 750px)
+{   
+	#h1 {width: 540px; height: 110px; font-size: 30px;}
+	#h2 {font-size: 22px;}
+	#h3 {font-size: 17px;}
+	.accordion-section .panel-default > .panel-heading {width: 545px; height: 58px;}
+	.accordion-section .panel-default .panel-title a {font-size: 16px; margin: 4px 0px 0px 15px;}
+	.accordion-section .panel-default .panel-body {width: 545px; font-size: 16px;}
+	input {width: 500px; height: 48px;}
+	.input2 input {width: 500px; height: 48px; margin-left: 0px;}
+}
+
+@media (max-width: 550px)
+{
+	#h1 {width: 424px; height: 61px; font-size: 25px;}
+	#h2 {font-size: 20px;}
+	#h3 {font-size: 16px;}
+	.accordion-section .panel-default > .panel-heading {width: 414px; height: 58px;}
+	.accordion-section .panel-default .panel-title a {font-size: 14px; margin: 0px 0px 0px 15px;}
+	.accordion-section .panel-default .panel-body {width: 414px; font-size: 14px;}
+	input {width: 421px; height: 48px;}
+	.input2 input {width: 421px; height: 48px;}
+}
+
+
+
+
+

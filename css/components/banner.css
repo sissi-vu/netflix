@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Roboto:wght@100;400&display=swap");
+
+.banner
+{ 
+  background-image: radial-gradient(rgb(0,0,0,0.4) 5%,rgb(0,0,0,0.5) 50%, rgb(0,0,0,0.8) 90%),url("../../images/fond.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  border-bottom: 8px solid #222;
+  padding-bottom: 120px;
+}
+
+.banner-head
+{ 
+   flex-wrap: wrap;
+   display: flex;
+   width: 100%;
+   align-items: center;
+   justify-content: space-between;
+   padding: 18px 43px;
+ }
+
+
+.banner-container
+{
+	display: flex;
+	flex-direction: column;
+    flex-wrap: wrap;
+	align-items: center;
+
+}
+
+.banner img
+{
+	width: 160px; height: 55px;
+}
+
+#h1
+{ 
+   font-family:  Verdana;
+   font-weight: 700;
+   font-size: 44px;
+   color: white;
+   width: 640px; height: 110px;
+   margin: 130px 0px 40px 0px;
+}
+
+#h2
+ {  
+   font-family:  Helvetica;
+   font-weight: 400px;
+   font-size: 26px;
+   margin-bottom:  22px;
+   color: white;
+  }
+
+#h3
+  { 
+    font-family:  Helvetica Neue, Helvetica, Arial, sans-serif; 
+    font-weight: lighter;
+    font-size: 20px;
+    margin-top: 10px;
+   }
+
+
+label {
+display: block;
+font: 1rem 'Fira Sans', sans-serif;
+}
+
+
+input
+{
+   width: 480px; height: 56px;
+   padding: 10px;
+}
+
+
